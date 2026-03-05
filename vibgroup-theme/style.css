@@ -1,0 +1,61 @@
+/*
+Theme Name: VibGroup Theme
+Theme URI: https://und3fined.it/
+Template: generatepress
+Author: Gabriele Visconti
+Author URI: https://und3fined.it/
+Description: Questo tema è stato realizzato dal developer team di Vib. G.V
+Tags: two-columns,three-columns,one-column,right-sidebar,left-sidebar,footer-widgets,blog,e-commerce,flexible-header,full-width-template,buddypress,custom-header,custom-background,custom-menu,custom-colors,sticky-post,threaded-comments,translation-ready,rtl-language-support,featured-images,theme-options
+Version: 3.5.1.1746024101
+Updated: 2025-04-30 16:41:41
+
+*/
+
+/* --------------------------------------------
+   Typografy
+-------------------------------------------- */
+
+/* --------------------------------------------
+   Header
+-------------------------------------------- */
+
+/* --------------------------------------------
+   Footer
+-------------------------------------------- */
+
+.section .row .content:nth-child(2) {
+  background: red;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.section .row .content:nth-child(3) {
+  background: green;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.section .row .content:nth-child(4) {
+  background: blue;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.section .row .content {
+  background: yellow;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  font-size: clamp(14px, 0.83vw, 16px);
+  line-height: clamp(24px, 1.35vw, 26px);
+}
+body h1 {
+  font-size: clamp(32px, 2.5vw, 48px);
+  color: #fff;
+}
